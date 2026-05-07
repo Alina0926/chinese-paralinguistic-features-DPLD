@@ -23,13 +23,13 @@ Due to GitHub’s file size limits, the **complete feature matrix** (BERT embedd
    ```bash
    pip install sentence-transformers scikit-learn pandas numpy
 
-   Generate BERT embeddings using shibing624/text2vec-base-chinese (no fine‑tuning needed).
+3. Generate BERT embeddings using shibing624/text2vec-base-chinese (no fine‑tuning needed).
 
-3. Train an LDA model with n_components=12 on the tokenized text (use the provided topic_mapping_final.csv for topic interpretation).
+4. Train an LDA model with n_components=12 on the tokenized text (use the provided topic_mapping_final.csv for topic interpretation).
 
-4. Apply the DPLD trigger matching logic as implemented in DPLD/dpld_ollama.py or LLM annotation/ollama_annotation.py.
+5. Apply the DPLD trigger matching logic as implemented in DPLD/dpld_ollama.py or LLM annotation/ollama_annotation.py.
 
-5. A 15k‑sample preview with LDA features (but no BERT) is available at data/dataset_15ksample_with_lda.csv.
+A 15k‑sample preview with LDA features (but no BERT) is available at data/dataset_15ksample_with_lda.csv.
 
 ##Reproducibility
 #Requirements
