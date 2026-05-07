@@ -32,12 +32,12 @@ Due to GitHub’s file size limits, the **complete feature matrix** (BERT embedd
 A 15k‑sample preview with LDA features (but no BERT) is available at data/dataset_15ksample_with_lda.csv.
 
 ## Reproducibility
-# Requirements
+Requirements
 1. Python 3.10+
 2. ollama (for local LLM inference, optional)
 3. sentence-transformers, scikit-learn, pandas, numpy, tqdm
 
-#Minimal steps to reproduce the paper’s main classification
+Minimal steps to reproduce the paper’s main classification
 1. Prepare features
 Run the feature extraction pipeline (see code in LLM annotation/ollama_annotation.py).
 BERT and LDA need to be computed separately as described above.
