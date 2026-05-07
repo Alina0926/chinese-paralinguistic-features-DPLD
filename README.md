@@ -31,8 +31,8 @@ Due to GitHub’s file size limits, the **complete feature matrix** (BERT embedd
 
 A 15k‑sample preview with LDA features (but no BERT) is available at data/dataset_15ksample_with_lda.csv.
 
-##Reproducibility
-#Requirements
+## Reproducibility
+# Requirements
 1. Python 3.10+
 2. ollama (for local LLM inference, optional)
 3. sentence-transformers, scikit-learn, pandas, numpy, tqdm
@@ -49,9 +49,9 @@ Scripts are not provided in a single file, but the logic is fully described in t
 3. Evaluate
 Compute macro‑F1 on a hold‑out test set.
 
-##License
+## License
 Code is licensed under the MIT License (see LICENSE).
 The DPLD lexicon and data are provided for academic research use only.
 
-##Contact
+## Contact
 Open an issue on GitHub for questions or bug reports.
